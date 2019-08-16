@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms and input</title>
+</head>
+<body>
+  <form action="">  
+    <div>
+      <!-- Name input -->
+      <label for ="name">Name</label>
+      <input type="text" name="email" id="name">
+    </div><br>
+    <!-- Email input -->
+    <label for ="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter email">
+    <div>
+      <!-- Message input -->
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" cols="50" rows="5"></textarea>
+    </div>  
+    <div>
+      <!--Dropdown  -->
+      <label for="sex">Sex</label><br>
+      <select name="sex" id="sex">
+        <option value="male">Male</option>
+        <option value="female" selected>Female</option> <!--selected->default -->
+          <option value="others">Others</option>
+      </select>
+    </div>
+    <div>
+      <!-- Date input -->
+      <label for="birthdate">Birthdate</label><br>
+      <input type="date" name="Birthdate">
+      
+    </div>
+    <!-- Radio Button
+    <div>
+      <label for ="Membership">Membership</label><br>
+      <input type="radio" name="membership" value="Simple" id="Membership">Simple
+      <input type="radio" name="membership" value="Premium" id="Membership" checked>Premium
+      <input type="radio" name="membership" value="Fremium" id="Membership">Fremium      
+    </div>-->
+    <div>
+        <label for ="Membership">Membership</label><br>
+        <input type="checkbox" name="membership" value="Simple" id="Membership">Simple
+        <input type="checkbox" name="membership" value="Premium" id="Membership" checked>Premium
+        <input type="checkbox" name="membership" value="Fremium" id="Membership">Fremium      
+      </div>
+      <input type="submit" value="submit">
+      <!--Button submit-->
+      <!-- <button name="submit">Submit</button> -->
+  </form>
+  
+</body>
+</html>
